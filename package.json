@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-hw-1",
+  "version": "1.0.0",
+  "description": "HomeWork-1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:watch": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smirnypavel/NodeJs-HW-1.git"
+  },
+  "author": "Smirny Pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smirnypavel/NodeJs-HW-1/issues"
+  },
+  "homepage": "https://github.com/smirnypavel/NodeJs-HW-1#readme",
+  "devDependencies": {
+    "nanoid": "^3.3.6",
+    "nodemon": "^2.0.22"
+  }
+}
