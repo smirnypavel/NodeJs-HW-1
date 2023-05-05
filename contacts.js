@@ -28,7 +28,7 @@ async function removeContact(id) {
   await updateContacts(updatedContacts);
 }
 
-async function addContact(id, name, email, phone) {
+async function addContact(name, email, phone) {
   const contacts = await listContacts();
   const newContact = { id: nanoid(8), name, email, phone };
   contacts.push(newContact);
